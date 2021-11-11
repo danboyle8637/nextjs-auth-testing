@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 const Global = createGlobalStyle`
   @font-face {
@@ -6,9 +6,14 @@ const Global = createGlobalStyle`
     src: url('/fonts/Roboto-Black.woff2') format('woff2');
     font-display: fallback;
   }
+  
+  :root {
+    --body-background: #1B1B2D;
+  }
 
   html {
     box-sizing: border-box;
+    font-size: 62.5%;
   }
 
   *,
@@ -20,7 +25,7 @@ const Global = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    background: #f8f8f8;
+    background: var(--body-background);
     width: 100%;
     height: 100%;
   }
@@ -54,6 +59,6 @@ const Global = createGlobalStyle`
     padding: 0;
   }
 
-`
+`;
 
-export default Global
+export default Global;

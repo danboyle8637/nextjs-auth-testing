@@ -1,9 +1,7 @@
-const Home = () => {
-  return (
-    <div>
-      <h1>Bare Bones NextJS - Typescript & Styled Components</h1>
-    </div>
-  )
-}
+import { MagicLink } from "../src/views/MagicLink";
 
-export default Home
+const Home = () => {
+  return <MagicLink />;
+};
+
+export default Home;
