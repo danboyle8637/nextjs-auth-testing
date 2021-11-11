@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "magic-sdk": "^6.2.1",
     "motion": "^10.4.0",
     "next": "^12.0.3",
     "react": "^17.0.2",

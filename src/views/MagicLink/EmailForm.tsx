@@ -37,6 +37,8 @@ export const EmailForm = () => {
 
     console.log(body);
     // hit worker
+    // Only need to validate the token.
+    // You can send the userId (issuer) to the worker as a header or in the body.
   };
 
   return (
